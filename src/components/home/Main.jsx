@@ -1,12 +1,9 @@
 import React from 'react';
 import image from '../../constants/image';
 
-import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { LiaHandsHelpingSolid } from "react-icons/lia";
-import { IoPersonAddOutline } from "react-icons/io5";
 import { IoHappyOutline } from "react-icons/io5";
 import { LiaUserFriendsSolid } from "react-icons/lia";
-import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Main = () => {
     return (
