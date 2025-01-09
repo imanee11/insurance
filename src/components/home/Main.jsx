@@ -114,6 +114,26 @@ const Main = () => {
                     </div>
                 </section>
 
+
+                {/* about us */}
+                <section className='px-[5vw] pb-10'>
+                    <div className='flex gap-5 items-center'>
+                        {/* left */}
+                        <div className='w-[50vw]'>
+                            <img src={image.insurance} alt="" className='w-[100%] object-cover object-top rounded-xl ' />
+                        </div>
+
+
+                        {/* right */}
+                        <div className='w-[50vw]'>
+                            <p className='border-l-[4px] border-l-[#3352A5] pl-3 text-[#E51C24] font-medium '>À Propos de <span className='uppercase'>assurance al bayane :</span></p>
+                            <p className='text-[30px] font-bold pt-2'><span className='uppercase'>assurance al bayane :</span> Le choix des entreprises pour une protection efficace</p>
+                            <p>Assurance Al Bayane est une société marocaine offrant un éventail complet de services d’assurance, allant de l’automobile à la santé, en passant par l’habitation et les entreprises. Avec une approche centrée sur le client, elle propose des solutions personnalisées et adaptées aux besoins de chaque assuré. Grâce à son expertise locale et son réseau de partenaires de confiance, elle accompagne ses clients tout au long de la gestion de leurs risques, en garantissant des services fiables et de qualité pour assurer leur tranquillité d’esprit.</p>
+                        </div>
+                    </div>
+
+                </section>
+
             </div>
 
 
