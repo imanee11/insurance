@@ -1,6 +1,13 @@
 import React from 'react';
 import image from '../../constants/image';
 
+import { HiOutlineEmojiHappy } from "react-icons/hi";
+import { LiaHandsHelpingSolid } from "react-icons/lia";
+import { IoPersonAddOutline } from "react-icons/io5";
+import { IoHappyOutline } from "react-icons/io5";
+import { LiaUserFriendsSolid } from "react-icons/lia";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 const Main = () => {
     return (
         <>
@@ -77,6 +84,34 @@ const Main = () => {
 
 
 
+                </section>
+
+
+                {/* numbers part */}
+                <section className='pt-[10vh] pb-[13vh]'>
+                    <div className='flex justify-center gap-[10vw]'>
+                        <div className='flex flex-col items-center justify-center'>
+                            <IoHappyOutline className='text-[30px] text-[#3352A5] ' />
+                            <p className='pt-2 font-medium text-[30px]'>+30 000</p>
+                            <p className='uppercase'>Clients satisfaits</p>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <LiaHandsHelpingSolid className='text-[30px] text-[#E51C24] ' />
+                            <p className='pt-2 font-medium text-[30px]'>+8 ans</p>
+                            <p className='uppercase'>d'experience</p>
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <LiaUserFriendsSolid className='text-[30px] text-[#ECB2B4] ' />
+                            <p className='pt-2 font-medium text-[30px]'>+6</p>
+                            <p className='uppercase'>Partenaires Assurance</p>
+                        </div>
+                        {/* <div className='flex flex-col items-center justify-center'>
+                            <HiOutlineEmojiHappy />
+                            <p>+30 000</p>
+                            <p className='uppercase'>Clients satisfaits</p>
+                        </div> */}
+
+                    </div>
                 </section>
 
             </div>
