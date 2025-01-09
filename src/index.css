@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */  
+}
+
+.hero {
+    background-image: url(./assets/images/hero.png);
+    background-position: bottom center;
+    background-size: cover; /* Ensures the image stays fully visible */
+    background-repeat: no-repeat;
+    height: 95vh; /* Adjust the height as needed */
+}
