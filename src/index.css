@@ -12,9 +12,9 @@
 }
 
 .hero {
-    background-image: url(./assets/images/hero.png);
+    /* background-image: url(./assets/images/hero.png);
     background-position: bottom center;
-    background-size: cover; /* Ensures the image stays fully visible */
+    background-size: cover; 
     background-repeat: no-repeat;
-    height: 95vh; /* Adjust the height as needed */
+    height: 95vh;  */
 }
