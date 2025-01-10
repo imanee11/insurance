@@ -147,7 +147,7 @@ const Main = () => {
 
                     <div className='pt-10 pb-10'>
                         {/* first part */}
-                        <div className='flex gap-5 justify-center items-center'>
+                        <div className='flex gap-5 justify-center'>
                             {/* left */}
                             <div className='w-[50vw] border-[1px] bg-[#fff] border-[#dadada] rounded-xl p-4  shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition duration-300 cursor-pointer group'>
                                 {/* top part */}
@@ -159,14 +159,14 @@ const Main = () => {
                                         </div>
                                         <div className="border-l-[1px] border-[#3352A5] pl-[1.5vw] ml-[1.5vw]">
                                             {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
-                                            <p className='text-[14px]'>AtlantaSanad Assurance vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
+                                            <p className='text-[14px]'>Nous vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
                                         </div>
                                     </div>
                                     <img src={image.auto} alt="" className='w-[20%] object-cover' />
                                 </div>
 
                                 {/* bottom part */}
-                                <div className="pt-5 flex flex-wrap gap-3">
+                                <div className="pt-2 flex flex-wrap gap-3">
                                     <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
                                         <MdOutlineNotificationImportant className='text-[#3352A5]' />
                                         <p className="text-[14px]">Garanties Obligatoire</p>
@@ -184,13 +184,38 @@ const Main = () => {
                             </div>
 
                             {/* right */}
-                            <div className='w-[50vw] flex gap-5 border-[1px] border-[#dadada] rounded-xl p-4'>
-                                <img src={image.travel} alt="" className='w-[25%]' />
-                                <div className='pt-4'>
-                                    <p>Assurance Automobile</p>
-                                    <p>AtlantaSanad Assurance vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
+                            <div className='w-[50vw] border-[1px] bg-[#fff] border-[#dadada] rounded-xl p-4  shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition duration-300 cursor-pointer group'>
+                                {/* top part */}
+                                <div className='flex gap-3'>
+                                    <div>
+                                        <div className="flex items-center   ">
+                                            <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#E51C24]" />
+                                            <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Voyage</p>
+                                        </div>
+                                        <div className="border-l-[1px] border-[#E51C24] pl-[1.5vw] ml-[1.5vw]">
+                                            {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
+                                            <p className='text-[14px]'>Assurance Al Bayane couvre les risques comme les urgences médicales, l'annulation de voyage et la perte de bagages, offrant ainsi une protection pendant les déplacements.</p>
+                                        </div>
+                                    </div>
+                                    <img src={image.travel} alt="" className='w-[20%] object-cover' />
                                 </div>
 
+                                {/* bottom part */}
+                                {/* <div className="pt-2 flex flex-wrap gap-3">
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <MdOutlineNotificationImportant className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Obligatoire</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <MdSecurity className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Classiques</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <IoShieldCheckmarkOutline className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Innovantes</p>
+                                    </div>
+
+                                </div> */}
                             </div>
                         </div>
 
