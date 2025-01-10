@@ -22,10 +22,10 @@ const Main = () => {
 
                         {/* right */}
                         <div>
-                            <div className='flex items-center gap-3'>
-                                <a href="">link1</a>
-                                <a href="">link2</a>
-                                <a href="">link3</a>
+                            <div className='flex items-center gap-[2vw]'>
+                                <a href="#about" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>À propos</a>
+                                <a href="" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>link2</a>
+                                <a href="" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>link3</a>
                             </div>
                         </div>
                     </nav>
@@ -113,7 +113,7 @@ const Main = () => {
 
 
                 {/* about us */}
-                <section className='px-[5vw] pb-10'>
+                <section className='px-[5vw] pb-10' id='about'>
                     <div className='flex gap-5 items-center'>
                         {/* left */}
                         <div className='w-[50vw]'>
