@@ -4,6 +4,10 @@ import image from '../../constants/image';
 import { LiaHandsHelpingSolid } from "react-icons/lia";
 import { IoHappyOutline } from "react-icons/io5";
 import { LiaUserFriendsSolid } from "react-icons/lia";
+import { TbPointFilled } from "react-icons/tb";
+import { MdOutlineNotificationImportant } from "react-icons/md";
+
+
 
 const Main = () => {
     return (
@@ -24,7 +28,7 @@ const Main = () => {
                         <div>
                             <div className='flex items-center gap-[2vw]'>
                                 <a href="#about" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>À propos</a>
-                                <a href="" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>link2</a>
+                                <a href="#services" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>Services</a>
                                 <a href="" className='font-medium hover:border-b-[2px] hover:border-[#3352A5]  transition duration-300 text-[15px] '>link3</a>
                             </div>
                         </div>
@@ -133,10 +137,66 @@ const Main = () => {
 
 
                 {/* services  */}
-                <section>
+                <section className='px-[5vw] bg-[#f1f6fc] pt-10' id='services'>
                     <div className='flex flex-col justify-center items-center'>
                         <p className='border-l-[4px] border-l-[#3352A5] pl-3 text-[#E51C24] font-medium'>Notre expertise</p>
                         <p className='text-[30px] font-bold pt-2 '>Nos Services</p>
+                    </div>
+
+                    <div className='pt-10 pb-10'>
+                        {/* first part */}
+                        <div className='flex gap-5 justify-center items-center'>
+                            {/* left */}
+                            <div className='w-[50vw] flex gap-5 border-[1px] bg-[#fff] border-[#dadada] rounded-xl p-4  shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition duration-300 cursor-pointer'>
+                                <div>
+                                    <div className='flex gap-3'>
+                                        <div>
+                                            <div className="flex items-center   ">
+                                                <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#3352A5]" />
+                                                <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Automobile</p>
+                                            </div>
+                                            <div className="border-l-[1px] border-[#3352A5] pl-[1.5vw] ml-[1.5vw]">
+                                                {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
+                                                <p className='text-[14px]'>AtlantaSanad Assurance vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
+                                            </div>
+                                        </div>
+                                        <img src={image.auto} alt="" className='w-[20%] object-cover' />
+                                    </div>
+
+
+                                    <div className="pt-5 flex flex-col gap-3">
+                                        <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md">
+                                            {/* <i className="fa-solid fa-dumbbell text-[#dd4a79] "></i> */}
+                                            <MdOutlineNotificationImportant className='text-[#3352A5]'/>
+                                            <p className="text-[14px]">Garanties Obligatoire</p>
+                                        </div>
+                                        <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[20vw] rounded-md">
+                                            {/* <i className="fa-solid fa-grip text-[#dd4a79]"></i> */}
+                                            <p className="text-[14px]">Garanties Classiques</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                {/* <div className='pt-4'>
+                                    <p className='flex gap-2 items-center text-[#000] font-medium pb-1'><TbPointFilled className='text-[#3352A5]'/>Assurance Automobile</p>
+                                    <p className='text-[14px]'>AtlantaSanad Assurance vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
+                                </div> */}
+
+                            </div>
+
+                            {/* right */}
+                            <div className='w-[50vw] flex gap-5 border-[1px] border-[#dadada] rounded-xl p-4'>
+                                <img src={image.travel} alt="" className='w-[25%]' />
+                                <div className='pt-4'>
+                                    <p>Assurance Automobile</p>
+                                    <p>AtlantaSanad Assurance vous apporte une offre de garanties complète pour répondre à tous vos besoins.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
                     </div>
 
                 </section>
