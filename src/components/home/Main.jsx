@@ -269,15 +269,15 @@ const Main = () => {
                                 <div className='flex gap-3'>
                                     <div>
                                         <div className="flex items-center   ">
-                                            <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#E51C24]" />
-                                            <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Voyage</p>
+                                            <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#c1d6f0]" />
+                                            <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Santé</p>
                                         </div>
-                                        <div className="border-l-[1px] border-[#E51C24] pl-[1.5vw] ml-[1.5vw]">
+                                        <div className="border-l-[1px] border-[#c1d6f0] pl-[1.5vw] ml-[1.5vw]">
                                             {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
                                             <p className='text-[14px]'>Assurance Al Bayane couvre les risques comme les urgences médicales, l'annulation de voyage et la perte de bagages, offrant ainsi une protection pendant les déplacements.</p>
                                         </div>
                                     </div>
-                                    <img src={image.travel} alt="" className='w-[20%] object-cover' />
+                                    <img src={image.health} alt="" className='w-[20%] object-cover' />
                                 </div>
 
                                 {/* bottom part */}
