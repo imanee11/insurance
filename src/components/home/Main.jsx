@@ -8,6 +8,12 @@ import { TbPointFilled } from "react-icons/tb";
 import { MdOutlineNotificationImportant } from "react-icons/md";
 import { MdSecurity } from 'react-icons/md';
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
+import { RiShieldKeyholeLine } from "react-icons/ri";
+import { RiHandHeartLine } from "react-icons/ri";
+import { FaPlusCircle } from "react-icons/fa";
+
+
+
 
 
 
@@ -145,7 +151,7 @@ const Main = () => {
                         <p className='text-[30px] font-bold pt-2 '>Nos Services</p>
                     </div>
 
-                    <div className='pt-10 pb-10'>
+                    <div className='flex flex-col gap-5 pt-10 pb-10'>
                         {/* first part */}
                         <div className='flex gap-5 justify-center'>
                             {/* left */}
@@ -178,6 +184,80 @@ const Main = () => {
                                     <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
                                         <IoShieldCheckmarkOutline className='text-[#3352A5]' />
                                         <p className="text-[14px]">Garanties Innovantes</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            {/* right */}
+                            <div className='w-[50vw] border-[1px] bg-[#fff] border-[#dadada] rounded-xl p-4  shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition duration-300 cursor-pointer group'>
+                                {/* top part */}
+                                <div className='flex gap-3'>
+                                    <div>
+                                        <div className="flex items-center   ">
+                                            <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#E51C24]" />
+                                            <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Voyage</p>
+                                        </div>
+                                        <div className="border-l-[1px] border-[#E51C24] pl-[1.5vw] ml-[1.5vw]">
+                                            {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
+                                            <p className='text-[14px]'>Assurance Al Bayane couvre les risques comme les urgences médicales, l'annulation de voyage et la perte de bagages, offrant ainsi une protection pendant les déplacements.</p>
+                                        </div>
+                                    </div>
+                                    <img src={image.travel} alt="" className='w-[20%] object-cover' />
+                                </div>
+
+                                {/* bottom part */}
+                                {/* <div className="pt-2 flex flex-wrap gap-3">
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <MdOutlineNotificationImportant className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Obligatoire</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <MdSecurity className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Classiques</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[16vw] rounded-md group-hover:border-[#3352A5] transition duration-300">
+                                        <IoShieldCheckmarkOutline className='text-[#3352A5]' />
+                                        <p className="text-[14px]">Garanties Innovantes</p>
+                                    </div>
+
+                                </div> */}
+                            </div>
+                        </div>
+                        
+
+                        {/* second part */}
+                        <div className='flex gap-5 justify-center'>
+                            {/* left */}
+                            <div className='w-[50vw] border-[1px] bg-[#fff] border-[#dadada] rounded-xl p-4  shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition duration-300 cursor-pointer group'>
+                                {/* top part */}
+                                <div className='flex gap-3'>
+                                    <div>
+                                        <div className="flex items-center   ">
+                                            <TbPointFilled className="fa-solid fa-circle text-[40px]  text-[#ECB2B4]" />
+                                            <p className='flex gap-2 items-center text-[#000] font-medium'>Assurance Habitation</p>
+                                        </div>
+                                        <div className="border-l-[1px] border-[#ECB2B4] pl-[1.5vw] ml-[1.5vw]">
+                                            {/* <p className="text-[#fff] text-[30px] font-bold">powerful when need.</p> */}
+                                            <p className='text-[14px]'>Nous vous offre une couverture globale En cas d’incendie, de vol, de dégâts des eaux, de Responsabilité Civile...</p>
+                                        </div>
+                                    </div>
+                                    <img src={image.home} alt="" className='w-[20%] object-cover' />
+                                </div>
+
+                                {/* bottom part */}
+                                <div className="pt-2 flex flex-wrap gap-3">
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[14vw] rounded-md group-hover:border-[#ECB2B4] transition duration-300">
+                                        <RiShieldKeyholeLine className='text-[#ECB2B4]' />
+                                        <p className="text-[14px]">Garanties De base</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[20vw] rounded-md group-hover:border-[#ECB2B4] transition duration-300">
+                                        <RiHandHeartLine className='text-[#ECB2B4]' />
+                                        <p className="text-[14px]">Garanties de Responsabilités</p>
+                                    </div>
+                                    <div className="flex items-center gap-3 border-[1px] border-[#dadada] p-2 w-[14vw] rounded-md group-hover:border-[#ECB2B4] transition duration-300">
+                                        <FaPlusCircle className='text-[#ECB2B4]' />
+                                        <p className="text-[14px]">Garanties Annexes</p>
                                     </div>
 
                                 </div>
