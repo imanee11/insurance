@@ -85,7 +85,7 @@ const Main = () => {
 
 
                 {/* numbers part */}
-                <section className='pt-[10vh] pb-[13vh]'>
+                <section className='pt-[10vh] pb-10'>
                     <div className='flex justify-center gap-[10vw]'>
                         <div className='flex flex-col items-center justify-center'>
                             <IoHappyOutline className='text-[30px] text-[#3352A5] ' />
@@ -127,6 +127,16 @@ const Main = () => {
                             <p className='text-[30px] font-bold pt-2'><span className='uppercase'>assurance al bayane :</span> Le choix des entreprises pour une protection efficace</p>
                             <p>Assurance Al Bayane est une société marocaine offrant un éventail complet de services d’assurance, allant de l’automobile à la santé, en passant par l’habitation et les entreprises. Avec une approche centrée sur le client, elle propose des solutions personnalisées et adaptées aux besoins de chaque assuré. Grâce à son expertise locale et son réseau de partenaires de confiance, elle accompagne ses clients tout au long de la gestion de leurs risques, en garantissant des services fiables et de qualité pour assurer leur tranquillité d’esprit.</p>
                         </div>
+                    </div>
+
+                </section>
+
+
+                {/* services  */}
+                <section>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p className='border-l-[4px] border-l-[#3352A5] pl-3 text-[#E51C24] font-medium'>Notre expertise</p>
+                        <p className='text-[30px] font-bold pt-2 '>Nos Services</p>
                     </div>
 
                 </section>
